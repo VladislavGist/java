@@ -1,6 +1,6 @@
-package oraily.animals;
+package animals;
 
-public class Lion extends Feline {
+public class Wolf extends Canine implements Predator {
     @Override
     public String makeNoise() {
         return super.makeNoise();
@@ -9,5 +9,9 @@ public class Lion extends Feline {
     @Override
     public String eat() {
         return super.eat();
+    }
+
+    public void beAgressive() {
+
     }
 }

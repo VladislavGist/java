@@ -1,6 +1,6 @@
-package oraily.animals;
+package animals;
 
-public class Tiger extends Feline {
+public class Cat extends Feline implements Pet {
     @Override
     public String makeNoise() {
         return super.makeNoise();
@@ -9,5 +9,13 @@ public class Tiger extends Feline {
     @Override
     public String eat() {
         return super.eat();
+    }
+
+    public void beFrendly() {
+
+    }
+
+    public void play() {
+
     }
 }

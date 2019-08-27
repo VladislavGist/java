@@ -1,4 +1,4 @@
-package oraily.animals;
+package animals;
 
 abstract class Animal {
     public String picture = "url";

@@ -1,4 +1,4 @@
-package oraily.animals;
+package animals;
 
 public class EntryPoint {
     public static void main(String[] args) {

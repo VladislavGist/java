@@ -1,6 +1,6 @@
-package oraily.animals;
+package animals;
 
-abstract class Feline extends Animal {
+abstract class Canine extends Animal {
     @Override
     public void roam() {
         super.roam();

@@ -1,4 +1,4 @@
-package oraily.animals;
+package animals;
 
 public class MyAnimalList {
     private Animal[] animals = new Animal[5];

@@ -1,6 +1,6 @@
-package oraily.animals;
+package animals;
 
-public class Dog extends Canine {
+public class Hippo extends Animal {
     @Override
     public String makeNoise() {
         return super.makeNoise();
