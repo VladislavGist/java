@@ -9,8 +9,8 @@ import java.awt.event.*;
 public class BeatBox {
     private JPanel mainPanel;
     private ArrayList<JCheckBox> checkboxList;
-    Sequencer sequencer;
-    Sequence sequence;
+    private Sequencer sequencer;
+    private Sequence sequence;
     private Track track;
     private JFrame theFrame;
 
@@ -18,7 +18,7 @@ public class BeatBox {
     "Crash Cymbal", "Hand Clap", "High Tom", "Hi Bongo", "Maracas", "Whistle", "Low conga",
     "Cowbell", "Vibrslap", "Low-mid Tom", "High Agogo", "Open Hi Conga"};
 
-     private int[] instruments = {35, 42, 46, 38, 49, 39, 50, 60, 70, 72, 64, 56, 58, 47, 67, 63};
+    private int[] instruments = {35, 42, 46, 38, 49, 39, 50, 60, 70, 72, 64, 56, 58, 47, 67, 63};
 
     public static void main(String[] args) {
         new BeatBox().buildGUI();
@@ -102,7 +102,7 @@ public class BeatBox {
             trackList = new int[16];
             int key = instruments[i];
 
-            for (int j = 0; i < 16; j++) {
+            for (int j = 0; j < 16; j++) {
                 JCheckBox jc = (JCheckBox) checkboxList.get(j + (16 * i));
                 if (jc.isSelected()) {
                     trackList[j] = key;
