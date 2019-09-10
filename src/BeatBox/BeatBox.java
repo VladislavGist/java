@@ -3,6 +3,9 @@ package BeatBox;
 import java.awt.*;
 import javax.swing.*;
 import javax.sound.midi.*;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
 import java.util.*;
 import java.awt.event.*;
 
@@ -49,6 +52,14 @@ public class BeatBox {
         JButton downTempo = new JButton("Down Tempo");
         downTempo.addActionListener(new MyDownTempoListener());
         buttonBox.add(downTempo);
+
+        JButton sendProject = new JButton("Send Project");
+        sendProject.addActionListener(new MySendListener());
+        buttonBox.add(sendProject);
+
+        JButton readProject = new JButton("Read Project");
+        readProject.addActionListener(new MyReadInListener());
+        buttonBox.add(readProject);
 
         Box nameBox = new Box(BoxLayout.Y_AXIS);
         for (int i = 0; i < 16; i++) {
@@ -174,5 +185,34 @@ public class BeatBox {
         }
 
         return event;
+    }
+
+    public class MySendListener implements ActionListener {
+        public void actionPerformed(ActionEvent a) {
+            int itemsCnt = 256;
+            boolean[] checkboxState = new boolean[itemsCnt];
+
+            for (int i = 0; i < itemsCnt; i++) {
+                JCheckBox check = (JCheckBox) checkboxList.get(i);
+
+                if (check.isSelected()) {
+                    checkboxState[i] = true;
+                }
+            }
+
+            try {
+                FileOutputStream fileStream = new FileOutputStream(new File("Checkbox.ser"));
+                ObjectOutputStream os = new ObjectOutputStream(fileStream);
+                os.writeObject(checkboxState);
+            } catch(Exception ex) {
+                ex.printStackTrace();
+            }
+        }
+    }
+
+    public class MyReadInListener implements ActionListener {
+        public void actionPerformed(ActionEvent a) {
+
+        }
     }
 }
