@@ -19,7 +19,12 @@ public class ThreadTester {
         Runnable threadJob = new MyRunnable();
         Thread myThread = new Thread(threadJob);
 
-        myThread.start();
+        try {
+            myThread.sleep(1000);
+            myThread.start();
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
 
         System.out.println("main");
     }

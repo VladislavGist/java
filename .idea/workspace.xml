@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4841f3df-07d6-4267-a39e-433dbfef2757" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/ThreadTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/ThreadTester.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,52 +26,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DavliAdvice/DavliAdviceClient.java">
+        <entry file="file://$PROJECT_DIR$/src/SimpleChatClient/SimpleChatClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="195">
+              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DavliAdvice/DavliAdviceServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DavliAdvice/SimpleChatClientA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1566#1567#0" expanded="true" />
-                <element signature="e#1604#1605#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Thread/ThreadTester.java">
+        <entry file="file://$PROJECT_DIR$/src/VerySimpleChatServer/VerySimpleChatServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
-                <element signature="e#85#86#0" expanded="true" />
-                <element signature="e#104#105#0" expanded="true" />
-                <element signature="e#133#134#0" expanded="true" />
-                <element signature="e#152#153#0" expanded="true" />
-                <element signature="e#189#190#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,14 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/oraily/animals/Lion.java" />
-        <option value="$PROJECT_DIR$/src/oraily/animals/Tiger.java" />
-        <option value="$PROJECT_DIR$/src/oraily/animals/Cat.java" />
-        <option value="$PROJECT_DIR$/src/oraily/animals/Wolf.java" />
-        <option value="$PROJECT_DIR$/src/oraily/animals/Canine.java" />
-        <option value="$PROJECT_DIR$/src/oraily/animals/EntryPoint.java" />
-        <option value="$PROJECT_DIR$/src/oraily/animals/Feline.java" />
-        <option value="$PROJECT_DIR$/src/oraily/animals/MyAnimalList.java" />
         <option value="$PROJECT_DIR$/src/oraily/animals/AnimalTestDrive.java" />
         <option value="$PROJECT_DIR$/src/oraily/animals/Dog.java" />
         <option value="$PROJECT_DIR$/src/oraily/animals/Animal.java" />
@@ -155,6 +120,14 @@
         <option value="$PROJECT_DIR$/src/DavliAdvice/DavliAdviceServer.java" />
         <option value="$PROJECT_DIR$/src/DavliAdvice/SimpleChatClientA.java" />
         <option value="$PROJECT_DIR$/src/Thread/ThreadTester.java" />
+        <option value="$PROJECT_DIR$/src/Thread/RunThreads.java" />
+        <option value="$PROJECT_DIR$/src/RunThreads/RunThreads.java" />
+        <option value="$PROJECT_DIR$/src/TestSyncTest/TestSyncTest.java" />
+        <option value="$PROJECT_DIR$/src/simpleChat/SimpleChatClient.java" />
+        <option value="$PROJECT_DIR$/src/simpleChat/VerySimpleChatServer.java" />
+        <option value="$PROJECT_DIR$/src/SimpleChatClient/SimpleChatClient.java" />
+        <option value="$PROJECT_DIR$/src/SimpleChatClient/VerySimpleChatServer.java" />
+        <option value="$PROJECT_DIR$/src/VerySimpleChatServer/VerySimpleChatServer.java" />
       </list>
     </option>
   </component>
@@ -165,8 +138,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="399" />
-    <option name="y" value="174" />
+    <option name="x" value="476" />
+    <option name="y" value="234" />
     <option name="width" value="1074" />
     <option name="height" value="1117" />
   </component>
@@ -190,6 +163,18 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SimpleChatClient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="VerySimpleChatServer" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -200,7 +185,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568368948238" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568886848486" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -219,13 +204,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadTester">
-    <configuration name="BeatBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BeatBox.BeatBox" />
+  <component name="RunManager" selected="Application.SimpleChatClient">
+    <configuration name="RunThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RunThreads.RunThreads" />
       <module name="untitled1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BeatBox.*" />
+          <option name="PATTERN" value="RunThreads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,12 +218,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DavliAdviceClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DavliAdvice.DavliAdviceClient" />
+    <configuration name="SimpleChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimpleChatClient.SimpleChatClient" />
       <module name="untitled1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DavliAdvice.*" />
+          <option name="PATTERN" value="VerySimpleChatServer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,25 +231,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DavliAdviceServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DavliAdvice.DavliAdviceServer" />
+    <configuration name="TestSyncTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestSyncTest.TestSyncTest" />
       <module name="untitled1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DavliAdvice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleChatClientA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DavliAdvice.SimpleChatClientA" />
-      <module name="untitled1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DavliAdvice.*" />
+          <option name="PATTERN" value="TestSyncTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,13 +257,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VerySimpleChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VerySimpleChatServer.VerySimpleChatServer" />
+      <module name="untitled1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VerySimpleChatServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleChatClient" />
+        <item itemvalue="Application.VerySimpleChatServer" />
+        <item itemvalue="Application.TestSyncTest" />
+        <item itemvalue="Application.RunThreads" />
         <item itemvalue="Application.ThreadTester" />
-        <item itemvalue="Application.SimpleChatClientA" />
-        <item itemvalue="Application.DavliAdviceServer" />
-        <item itemvalue="Application.DavliAdviceClient" />
-        <item itemvalue="Application.BeatBox" />
       </list>
     </recent_temporary>
   </component>
@@ -318,10 +303,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="399" y="174" width="1074" height="1117" extended-state="0" />
+    <frame x="476" y="234" width="1074" height="1117" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49707603" visible="true" weight="0.20445736" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49707603" visible="true" weight="0.30426356" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -329,15 +314,15 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.50292397" side_tool="true" weight="0.32600734" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19512194" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297561" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.500969" side_tool="true" visible="true" weight="0.2809756" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989796" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.21463415" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.18731707" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.499031" weight="0.18731707" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3297561" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3297561" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32682925" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24921794" />
@@ -383,48 +368,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/animals/Feline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/animals/Predator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/animals/Robot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/extend/FamilyDoctor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/oraily/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="47" column="20" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/oraily/Button.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/extend/Doctor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -718,7 +661,7 @@
     <entry file="file://$PROJECT_DIR$/src/DavliAdvice/SimpleChatClientA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1566#1567#0" expanded="true" />
@@ -729,8 +672,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Thread/ThreadTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        <state relative-caret-position="120">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
             <element signature="e#85#86#0" expanded="true" />
             <element signature="e#104#105#0" expanded="true" />
@@ -738,6 +681,54 @@
             <element signature="e#152#153#0" expanded="true" />
             <element signature="e#189#190#0" expanded="true" />
             <element signature="e#225#226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread/RunThreads.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RunThreads/RunThreads.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestSyncTest/TestSyncTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SimpleChatClient/SimpleChatClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SimpleChatClient/SimpleChatClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VerySimpleChatServer/VerySimpleChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
